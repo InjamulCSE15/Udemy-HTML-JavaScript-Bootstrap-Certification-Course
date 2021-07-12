@@ -21,7 +21,7 @@
       - Phone Number Format.
 -->
 
-<!-- 25. HTML Form Tags & Attributes: -->
+<!-- 25. HTML Form Tags & Attributes -->
 
 <form name="employment" action="send.php" method="POST">
     <table width = "600" border="1" cellspacing="2" cellpadding="2">
@@ -39,28 +39,58 @@
         <td><input type="text" name="lname" maxlength="20"/></td>
       </tr>   
       <tr>
-        <td></td>
-        <td></td>
+        <!-- 28. HTML Forms - Select Menus -->
+        <td>Position</td>
+        <td>
+          <select name="position" id="">
+            <option value="AC">Accountant</option>
+            <option value="RE">Receptionist</option>
+            <option value="AD">Administrator</option>
+            <option value="SV">Supervisor</option>
+          </select>
+        </td>
+      </tr>   
+      <tr>
+        <td>Experience Level</td>
+        <td>
+          <select name="experience" id="">
+            <option value="EL">Entry Level</option>
+            <option value="SE">Some Experience</option>
+            <option value="VE">Very Experienced</option>
+          </select>
+        </td>
+      </tr>   
+      <tr>
+        <!-- 29. HTML Forms - Check Boxes & Radio Buttons -->
+        <td>Job Type</td>
+        <td>
+          <input type="checkbox" name="ft" id="">Full Time
+          <input type="checkbox" name="pt" id="">Part Time
+          <input type="checkbox" name="in" id="">Intern
+        
+        </td>
+      </tr>   
+      <tr>
+        <td>Employment Status</td>
+        <td>
+          <input type="radio" name="estatus" value="employed" id="">Employed
+          <input type="radio" name="estatus" value="unemployed" id="">Unemployed
+          <input type="radio" name="estatus" value="student" id="">Student
+        </td>
+      </tr>   
+      <tr>
+        <!-- 30. HTML Forms - Text Areas & Buttons -->
+        <td>Your Comments</td>
+        <td>
+          <textarea name="comments" id="" cols="45" rows="10"></textarea>
+        </td>
       </tr>   
       <tr>
         <td></td>
-        <td></td>
-      </tr>   
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>   
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>   
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>   
-      <tr>
-        <td></td>
-        <td></td>
+        <td>
+          <input type="submit" value="Submit" name="submit">
+          <input type="reset" value="Reset" name="reset">
+        </td>
       </tr>   
       
 
