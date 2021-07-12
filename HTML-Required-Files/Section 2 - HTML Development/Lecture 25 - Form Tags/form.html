@@ -3,52 +3,107 @@
 <html>
 
 	<head>
-		<title>Table Tutorial</title>
+		<title>HTML Forms | Tutorial</title>
 		<meta charset="utf-8">
 	</head>
 
 
 <body>
+<!--
+    24. HTML - Introduction to Forms:
+      - Used to gather input from your user.
+      - Form Data can be inputted into a Database, or sent to an Email  Address.
+      - Input Forms are created in HTML.
+      - Data is submitted to a PHP Script / JavaScript or any Programming Languages for processing.
+      # Data Validation:
+      - Email Format.
+      - Min / Max Length.
+      - Phone Number Format.
+-->
 
+<!-- 25. HTML Form Tags & Attributes: -->
 
- <table width="600" border="1" cellspacing="2" cellpadding="2">
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+<form name="employment" action="send.php" method="POST">
+    <table width = "600" border="1" cellspacing="2" cellpadding="2">
+      <tr>
+        <!-- 27. HTML Forms - Input Text Fields -->
+        <td>Employment Application</td>
+        <td></td>
+      </tr>   
+      <tr>
+        <td>First Name</td>
+        <td><input type="text" name="fname" maxlength="20"/></td>
+      </tr>   
+      <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="lname" maxlength="20"/></td>
+      </tr>   
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>   
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>   
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>   
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>   
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>   
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>   
+      
+
+    </table>
+  </form>
+
+  <!-- 26. HTML Forms - POST vs GET:
+        
+        # Basics:
+        - HTTP protocol facilitates communication between client and server.
+        - Two types of data transmission methods: POST & GET.
+        
+        # POST vs GET:
+        - GET requests data from a specified resource.
+        - POST submits data to be processed to a specified resources.
+
+        # GET:
+        - Name/Value pairs are sent in the URL String.
+        * Example:
+          send.php?fname=john&lname=smith
+
+        # POST:
+        - Sends name/value pairs in the HTTP message body
+        # Example:
+          POST send.php HTTP/1.1
+          Host: youaccel.com
+          fname=john&lname=smith
+
+        # GET Requests:
+        - Can be cached.
+        - Remain in browser history.
+        - Should only be used to retrieve data.
+        - Have length restrictions.
+        - Should not be used for sensitive data.
+        - Can be bookmarked.
+
+        # POST Methods:
+        - No restrictions on data length.
+        - Cannot be bookmarked.
+        - Do not remain in browser history.
+        - Requests are never cached.
+  -->
+
 
 
 </body>
