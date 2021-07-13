@@ -39,3 +39,11 @@ var h = 5;
 h--;
 var k = h;
 document.getElementById('dec').innerHTML = "Decrement value 5 from to " + k;
+
+/* 53. JavaScript Operator Precedence:
+
+ Order Precedence: Brackets, Exponents, Division, Multiplication, Addition, Subtraction
+ 
+*/
+ 
+document.getElementById('precedence').innerHTML = (200 + 50) * 3;
