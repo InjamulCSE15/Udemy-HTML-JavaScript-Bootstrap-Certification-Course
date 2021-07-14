@@ -10,3 +10,8 @@ document.getElementById('mathRound2').innerHTML =
 
 document.getElementById('mathFloor').innerHTML = 
 "Using Math.floor Function (15.6) after " + Math.floor(15.6); // Output : 15
+
+// Math.ceil Function:
+
+document.getElementById('mathCeil').innerHTML = 
+"Using Math.ceil Function (15.6) after " + Math.ceil(15.6); // Output : 16
