@@ -20,7 +20,15 @@ document.getElementById('shift').innerHTML = fruits.join(", ");
 // Push():
 
 var fruits = ["Apple", "Orange", "Grape", "Mango", "Banana", "Jack fruit", "Pine-apple"];
-fruits.push("Cherry"); // Add a new element will be last position of the array
+fruits.push("Cherry"); // Add a new element will be the last position of the array
 
 document.getElementById('push').innerHTML = fruits.join(", "); 
+// Output: Orange, Grape, Mango, Banana, Jack fruit, Pine-apple, Cherry
+
+// Unshift():
+
+var fruits = ["Apple", "Orange", "Grape", "Mango", "Banana", "Jack fruit", "Pine-apple"];
+fruits.push("Tomato"); // Add a new element will be the first position of the array
+
+document.getElementById('unshift').innerHTML = fruits.join(", "); 
 // Output: Orange, Grape, Mango, Banana, Jack fruit, Pine-apple, Cherry
