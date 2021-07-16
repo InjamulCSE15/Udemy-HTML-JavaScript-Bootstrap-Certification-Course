@@ -28,7 +28,7 @@ document.getElementById('push').innerHTML = fruits.join(", ");
 // Unshift():
 
 var fruits = ["Apple", "Orange", "Grape", "Mango", "Banana", "Jack fruit", "Pine-apple"];
-fruits.push("Tomato"); // Add a new element will be the first position of the array
+fruits.unshift("Cherry"); // Add a new element will be the first position of the array
 
 document.getElementById('unshift').innerHTML = fruits.join(", "); 
-// Output: Orange, Grape, Mango, Banana, Jack fruit, Pine-apple, Cherry
+// Output: Cherry, Apple, Orange, Grape, Mango, Banana, Jack fruit, Pine-apple
