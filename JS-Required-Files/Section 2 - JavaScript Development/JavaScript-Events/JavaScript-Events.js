@@ -20,3 +20,8 @@ function mouseClick(){
 function mouseOver(){
     document.getElementById('mouseOver').innerHTML = Date();
 }
+
+// Mouse Out Event:
+function mouseOut(){
+    document.getElementById('mouseOut').innerHTML = Date();
+}
