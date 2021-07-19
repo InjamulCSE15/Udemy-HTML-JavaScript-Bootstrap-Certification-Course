@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Bootstrap Dropdown Menu </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Required File Links -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <title>102. Bootstrap Dropdown Menus </title>
 </head>
+
 <body>
 
 <div class="container">
+  
+  <!-- Dropdown Menu -->
   <h4>Dropdown Menu</h4>
 
   <div class="dropdown">
@@ -27,6 +33,97 @@
     </ul>
 	
   </div>
+  
+  <hr>
+
+  <!-- Dropdown Menu with Header and Divider-->
+  <h4>Dropdown Menu with header and divider</h4>
+
+  <div class="dropdown">
+  
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+		<span class="caret"></span>
+	</button>
+	
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Heading 1</li>
+		<li><a href="#">Option 1</a></li>
+		<li><a href="#">Option 2</a></li>
+    
+    <li class="divider"></li>
+		
+    <li class="dropdown-header">Heading 2</li>
+    <li><a href="#">Option 3</a></li>
+		<li><a href="#">Option 4</a></li>
+		
+    </ul>
+	
+  </div>
+
+  <hr>
+
+  <!-- Dropdown Menu disabled-->
+  <h4>Dropdown Menu disabled</h4>
+
+  <div class="dropdown">
+  
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+		<span class="caret"></span>
+	</button>
+	
+    <ul class="dropdown-menu">
+		<li><a href="#">Option 1</a></li>
+		<li class="disabled"><a href="#">Option 2</a></li>
+		<li class="disabled"><a href="#">Option 3</a></li>
+		<li><a href="#">Option 4</a></li>
+		
+    </ul>
+	
+  </div>
+  
+  <hr>
+
+  <!-- Dropdown Menu Right -->
+  <h4>Dropdown Menu Right</h4>
+
+  <div class="dropdown">
+  
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+		<span class="caret"></span>
+	</button>
+	
+    <ul class="dropdown-menu dropdown-menu-right">
+		<li><a href="#">Option 1</a></li>
+		<li><a href="#">Option 2</a></li>
+		<li><a href="#">Option 3</a></li>
+		<li><a href="#">Option 4</a></li>
+		
+    </ul>
+	
+  </div>
+  
+  <hr>
+
+  <!-- Drop-up Menu -->
+  <h4>Drop-up Menu</h4>
+
+  <div class="dropup">
+  
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+		<span class="caret"></span>
+	</button>
+	
+    <ul class="dropdown-menu">
+		<li><a href="#">Option 1</a></li>
+		<li><a href="#">Option 2</a></li>
+		<li><a href="#">Option 3</a></li>
+		<li><a href="#">Option 4</a></li>
+		
+    </ul>
+	
+  </div>
+  
+  <hr>
 
  </div>
 
