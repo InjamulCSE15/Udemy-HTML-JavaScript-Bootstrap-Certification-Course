@@ -14,12 +14,71 @@
 
 <body>
 
-<!-- Nav Bar Fixing and Style:
-  01. Use navbar-inverse class for style
-  02. Use navbar-fixed-top class for fixed navbar top of the website -->
+<!-- Nav Bar Style:
+     Use navbar-inverse class for style
+ -->
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <!-- Use container-fluid class -->
+<nav class="navbar navbar-inverse">
+  
+  <div class="container">
+    <div class="navbar-header">
+
+<!-- 111. Bootstrap Collapsible Navigation Bar -->      
+
+  <!-- Button Block -->
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <!-- // -->
+	<a class="navbar-brand" href="#">MyWebsite</a>
+    </div>
+
+  <!-- Collapse Div -->
+  <div class="collapse navbar-collapse" id="nav1">
+	<ul class="nav navbar-nav">	  
+
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Menu Item 1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+      </ul>
+    </li>
+
+	  <li class="active"><a href="#">Link 1</a></li>		  
+	  <li><a href="#">Link 2</a></li>
+	  <li><a href="#">Link 3</a></li>
+	  <li><a href="#">Link 4</a></li>
+	</ul>
+	
+	<ul class="nav navbar-nav navbar-right">
+	  <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span> RLink 1</a></li>
+	  <li><a href="#"><span class="glyphicon glyphicon-search"></span> RLink 2</a></li>
+	</ul>
+  <!-- Close Collapse Div-->
+  </div>
+  <!-- // -->
+  </div>
+</nav>
+
+
+<!--  Use container class -->
+<div class="container">
+  <h3>Heading 1 </h3>
+  <p>Content.</p>
+</div>
+
+<!-- This Codes were used only for course content practice (This is a Comment):
+
+<hr>
+
+-- (This is a Comment) Use navbar-fixed-top class for fixed navbar top of the website:
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  -- (This is a Comment) Use container-fluid class --
   <div class="container-fluid">
     <div class="navbar-header">
 	<a class="navbar-brand" href="#">MyWebsite</a>
@@ -38,46 +97,16 @@
 	
   </div>
 </nav>
-<br>
-<br>
-<!-- Use container-fluid class -->
+
+-- (This is a Comment) Use container-fluid class --
 <div class="container-fluid">
-  <h3>Heading 1 </h3>
-  <p>Content.</p>
-</div>
-
-<hr>
-
-<nav class="navbar navbar-default">
-  <!-- Use container class -->
-  <div class="container">
-    <div class="navbar-header">
-	<a class="navbar-brand" href="#">MyWebsite</a>
-    </div>
-	<ul class="nav navbar-nav">	  
-	  <li class="active"><a href="#">Link 1</a></li>		  
-	  <li><a href="#">Link 2</a></li>
-	  <li><a href="#">Link 3</a></li>
-	  <li><a href="#">Link 4</a></li>
-	</ul>
-	
-	<ul class="nav navbar-nav navbar-right">
-	  <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span> RLink 1</a></li>
-	  <li><a href="#"><span class="glyphicon glyphicon-search"></span> RLink 2</a></li>
-	</ul>
-	
-  </div>
-</nav>
-
-<!-- Use container class -->
-<div class="container">
   <h3>Heading</h3>
   <p>Content.</p>
 </div>
 
 <hr>
 
-
+ -->
 
 
 
